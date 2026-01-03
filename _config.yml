@@ -18,7 +18,7 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "landingpage", Title: "Hi There!", sidebaricon: home}
+  - {file: "landingpage.md", Title: "Hi There!", sidebaricon: home}
   - {title: "Publications",}
   - {file: "README.md", title: "About Me", sidebaricon: address-card}
   - {file: "WebsiteCV.pdf", title: "CV"}

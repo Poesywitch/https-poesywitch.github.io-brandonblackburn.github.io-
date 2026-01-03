@@ -12,6 +12,6 @@ title: "Hi There!"
     </article>
   {% endfor %}
 {% else %}
-  {% capture source %}{% include_relative landingpage.md title="Hi There!" %}{% endcapture %}
+  {% capture source %}{% include_relative index.md title="Hi There!" %}{% endcapture %}
   {{ source | split: "---" | last }}
 {% endif %}

@@ -20,7 +20,7 @@ show_minimal: false             # remove all clutter
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "archive.html", title: "Publications", sidebaricon: home}
   - {file: "README.md", title: "About Me", sidebaricon: address-card}
-  - {file: "/Blackburn CV Smith.pdf", title: "CV"}
+  - {file: "/WebsiteCV.pdf", title: "CV"}
   - {title: "Non-Academic Publications"}
   - {title: "Conference Talks"}
 

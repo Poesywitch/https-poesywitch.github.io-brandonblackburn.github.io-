@@ -22,7 +22,7 @@ navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {file: "README.md", Title: "About Me", sidebaricon: address-card}
   - {File: "WebsiteCV.pdf", Title: "CV"}
   - {Title: "Non-Academic Publications"}
-  - {Title: "Conference Talks")
+  - {Title: "Conference Talks"}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:author@example.com"}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Hi There!"
+title: "Home"
 ---
 
 {% if site.show_excerpts %}
@@ -12,6 +12,6 @@ title: "Hi There!"
     </article>
   {% endfor %}
 {% else %}
-  {% capture source %}{% include_relative index.md title="Hi There!" %}{% endcapture %}
+  {% capture source %}{% include_relative archive.html title="Posts" %}{% endcapture %}
   {{ source | split: "---" | last }}
 {% endif %}

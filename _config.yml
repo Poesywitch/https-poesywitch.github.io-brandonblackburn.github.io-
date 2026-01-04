@@ -18,11 +18,11 @@ show_minimal: false             # remove all clutter
 # Menu                          # for available icons see https://fontawesome.com/v5/icons/
 
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {title: "Publications",}
   - {file: "README.md", title: "About Me", sidebaricon: address-card}
   - {file: "websitecvnew.html", title: "CV"}
-  - {title: "Non-Academic Publications"}
+  - {title: "Academic Publications",}
   - {title: "Conference Talks"}
+  - {title: "Non-Academic Publications"}
 
 external:                       # accepts {file, title, url, icon, sidebaricon}
   - {title: Mail, icon: envelope, url: "mailto:author@example.com"}

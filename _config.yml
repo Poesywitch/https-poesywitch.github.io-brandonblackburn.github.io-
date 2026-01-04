@@ -20,7 +20,7 @@ show_minimal: false             # remove all clutter
 navigation:                     # accepts {file, title, url, icon, sidebaricon}
   - {title: "Publications",}
   - {file: "README.md", title: "About Me", sidebaricon: address-card}
-  - {file: "websitecv (1).pdf", title: "CV"}
+  - {file: "websitecvnew.pdf", title: "CV"}
   - {title: "Non-Academic Publications"}
   - {title: "Conference Talks"}
 
